@@ -19,7 +19,7 @@ public class Producto {
     private double tamano;
     private int tipo;
     private int grado;
-    private int categoriaCerveza;
+    private CategoriaCerveza categoriaCerveza;
     private int categoriaVino;
 
     public Producto() {
@@ -112,14 +112,14 @@ public class Producto {
     /**
      * @return the categoriaCerveza
      */
-    public int getCategoriaCerveza() {
+    public CategoriaCerveza getCategoriaCerveza() {
         return categoriaCerveza;
     }
 
     /**
      * @param categoriaCerveza the categoriaCerveza to set
      */
-    public void setCategoriaCerveza(int categoriaCerveza) {
+    public void setCategoriaCerveza(CategoriaCerveza categoriaCerveza) {
         this.categoriaCerveza = categoriaCerveza;
     }
 

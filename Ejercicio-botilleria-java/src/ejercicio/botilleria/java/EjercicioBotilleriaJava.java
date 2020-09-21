@@ -5,6 +5,11 @@
  */
 package ejercicio.botilleria.java;
 
+import ejercicio.botilleria.java.modelo.CategoriaCerveza;
+import ejercicio.botilleria.java.modelo.Producto;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author jorge
@@ -16,6 +21,16 @@ public class EjercicioBotilleriaJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        CategoriaCerveza catCervezas=new CategoriaCerveza(1,"Cerveza Nacional");
+        
+        Producto escudo=new Producto();
+        escudo.setId(1);
+        escudo.setGrado(4);
+        escudo.setNombre("Cerveza Escudo");
+        escudo.setCategoriaCerveza(catCervezas);
+        
+        
     }
     
 }
